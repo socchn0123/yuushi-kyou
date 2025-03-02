@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header>
+        <h1>ゆうし教オフィシャルサイト</h1>
+        <p>全ての語録を上へ、日常をユーモラスに。</p>
+    </header>
+    <div class="container">
+        <img src="{{ url_for('static', filename='2025-03-01_214647.png') }}" alt="ゆうし教のイメージ">
+        <p>ようこそ、ゆうし教の世界へ！ここでは、ユーモアと創造性を大切にした仮想宗教をお楽しみいただけます。</p>
+        
+        <h2>人気コンテンツへのリンク</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/@yuushi_official" target="_blank">YouTubeチャンネル</a></li>
+            <li><a href="https://discord.gg/wY9xh2syTc" target="_blank">Discordサーバー</a></li>
+            <li><a href="{{ url_for('teachings') }}">ゆうし教の教え</a></li>
+        </ul>
+    </div>
+</body>
+</html>
