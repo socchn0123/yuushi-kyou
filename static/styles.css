@@ -30,9 +30,8 @@ p {
 }
 
 img {
-    height: auto;
+    width: 408px;  /* 画像の幅 */
+    height: 582px; /* 画像の高さ */
     border-radius: 10px;
     margin-bottom: 1rem;
 }
-
-
